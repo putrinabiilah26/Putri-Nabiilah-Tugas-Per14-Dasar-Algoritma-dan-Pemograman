@@ -38,17 +38,21 @@
 - Komentar diberikan di fungsi penting seperti input_angka() dan pemrosesan pesanan
 - Penamaan fungsi dan variabel deskriptif dan konsisten
 
-# 3. Diagram alur kerja dan arsitektur
-START
- └── Pilih Role: Penjual / Pembeli
-       ├── Penjual
-       │     ├── Lihat Pemasukan
-       │     ├── Tambah Stok
-       │     ├── Lihat Stok
-       │     └── Lihat Riwayat Pembelian
-       └── Pembeli
-             ├── Lihat Stok
-             └── Pesan Dimsum
-                    └── Tampilkan Total dan Simpan Riwayat
+## Diagram Alur Kerja dan Arsitektur
+Saat aplikasi dijalankan, pengguna akan disambut dengan halaman utama yang menampilkan pilihan peran, yaitu sebagai Penjual atau Pembeli. Alur penggunaan sistem kemudian akan menyesuaikan berdasarkan peran yang dipilih:
+## 1. Jika pengguna memilih sebagai penjual:
+Setelah memilih peran sebagai penjual, pengguna akan diarahkan ke menu khusus yang menyediakan berbagai fungsi manajemen terkait inventori dan transaksi. Menu ini terdiri dari:
+- # Lihat Pemasukan
+  Menampilkan total pemasukan toko yang didapat dari semua transaksi pembelian yang telah dilakukan oleh pembeli.
+- # Tambah Stok Dimsum
+  Penjual dapat menambahkan data dimsum baru atau memperbarui stok dan harga dimsum yang sudah tersedia. Data yang dimasukkan meliputi nama dimsum, jumlah stok, dan harga per pcs.
+
+Lihat Stok Dimsum
+Menampilkan seluruh daftar dimsum yang tersedia dalam bentuk tabel, lengkap dengan jumlah stok dan harga per satuannya. Tabel ditampilkan dengan format yang rapi menggunakan library tabulate.
+
+Lihat Riwayat Pembelian
+Menampilkan daftar seluruh transaksi yang pernah dilakukan pembeli. Informasi yang ditampilkan meliputi nama pembeli, daftar pesanan yang dibeli beserta jumlahnya, serta total harga pembelian.
+
+
 
 
