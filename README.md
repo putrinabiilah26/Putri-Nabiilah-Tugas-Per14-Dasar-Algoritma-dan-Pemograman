@@ -46,7 +46,6 @@ Setelah memilih peran sebagai penjual, pengguna akan diarahkan ke menu khusus ya
 - Tambah Stok Dimsum. Penjual dapat menambahkan data dimsum baru atau memperbarui stok dan harga dimsum yang sudah tersedia. Data yang dimasukkan meliputi nama dimsum, jumlah stok, dan harga per pcs.
 - Lihat Stok Dimsum. Menampilkan seluruh daftar dimsum yang tersedia dalam bentuk tabel, lengkap dengan jumlah stok dan harga per satuannya. Tabel ditampilkan dengan format yang rapi menggunakan library tabulate.
 - Lihat Riwayat Pembelian. Menampilkan daftar seluruh transaksi yang pernah dilakukan pembeli. Informasi yang ditampilkan meliputi nama pembeli, daftar pesanan yang dibeli beserta jumlahnya, serta total harga pembelian.
-- Lihat Riwayat Pembelian. Menampilkan daftar seluruh transaksi yang pernah dilakukan pembeli. Informasi yang ditampilkan meliputi nama pembeli, daftar pesanan yang dibeli beserta jumlahnya, serta total harga pembelian.
 - Kembali. Kembali ke menu utama untuk memilih ulang peran atau keluar.
 
 ### 2. Jika Memilih Sebagai Pembeli
