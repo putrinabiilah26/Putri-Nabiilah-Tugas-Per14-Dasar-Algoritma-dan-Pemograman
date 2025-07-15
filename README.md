@@ -111,11 +111,16 @@ Note: Di bagian menu nomor 2 (pesan dimsum) akan diminta untuk menginput nama pe
 
 ### FAQ dan troubleshooting guide
 Q: Program tidak bisa dijalankan, muncul error ModuleNotFoundError: No module named 'tabulate'
+
 A: Kamu perlu install modul tabulate dengan perintah:
     - pip install tabulate
+    
 Q: Saya sudah pesan dimsum tapi stok tidak berkurang
+
 A: Pastikan kamu menyelesaikan pesanan sampai input "selesai". Jika tidak, data tidak akan diproses.
+
 Q: Bagaimana cara keluar dari aplikasi?
+
 A: Dari menu utama, pilih opsi nomor 3 (Keluar), atau tekan Ctrl + C untuk keluar paksa dari terminal.
 
 # 4. Pengujian dan Evaluasi
